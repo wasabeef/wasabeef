@@ -4,5 +4,4 @@
 
 #### Sponsors
 
-- {NAME}
-- {NAME}
+- [Become a sponsor](https://github.com/sponsors/wasabeef)
