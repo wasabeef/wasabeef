@@ -1,7 +1,7 @@
 ### Hi <img src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/wave.gif" width="30px">
 <br/>
 
-I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **Google Developers Expert for Android** 👨🏻‍💻 aspiring to become an Expert in the field of **Mobile** development. I’m also an **Open-Source** enthusiast with all of my projects open-sourced on [Github](https://www.github.com/sagarchoudhary96).
+I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **Google Developers Expert for Android** 👨🏻‍💻 aspiring to become an Expert in the field of **Mobile** development. I’m also an **Open-Source** enthusiast with all of my projects open-sourced on [Github](https://www.github.com/wasabeef).
 <br/>
 <br/>
 
