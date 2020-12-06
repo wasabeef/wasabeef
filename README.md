@@ -6,6 +6,8 @@ I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **Google Developers Expe
 
 <img align="right" alt="coding User Image" src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/chip.gif" height="240" />
 
+<br/>
+
 - 🗼 Living in **Tokyo, Japan**
 
 - 👨‍💻 Currently Working at CyberAgent and NowDo.
@@ -13,6 +15,8 @@ I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **Google Developers Expe
 - 👍 Dog 🐶 and Gaming 🎮
 
 - ✈️ Open to Remote Job Opportunities
+
+<br/>
 
 ### 📈 GitHub Stats
 
