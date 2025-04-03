@@ -9,7 +9,7 @@ I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **[Google Developers Exp
 
 - 🗼 Living in **Tokyo, Japan**
 
-- 👨‍💻 Currently Working at CyberAgent and NowDo
+- 👨‍💻 Currently Working at CyberAgent
 
 - 👍 Dogs and Gaming 🐶 🎮
 
