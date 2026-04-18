@@ -19,11 +19,16 @@ I'm [Daichi Furiya](https://twitter.com/wasabeef_jp), a **[Google Developers Exp
 
 ### 📈 GitHub Stats
 
-[![Wasabeef's github stats](https://github-readme-stats.vercel.app/api?username=wasabeef&count_private=true&show_icons=true&line_height=21&show_icons=true&theme=vue&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=wasabeef&count_private=true&show_icons=true&layout=compact&theme=vue&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  <img width="49%" src="./generated/github-stats.svg" alt="Wasabeef's GitHub stats" />
+  <img width="49%" src="./generated/github-most-used-languages.svg" alt="Wasabeef's most used languages" />
+</p>
+
+<p align="center">
+  <img width="49%" src="./generated/github-top-repositories.svg" alt="Wasabeef's top repositories by stars" />
+  <img width="49%" src="./generated/github-recent-releases.svg" alt="Wasabeef's recent releases" />
+</p>
 
 ### ♡ Top Sponsors
 
 - [Become a sponsor](https://github.com/sponsors/wasabeef)
-
-<img src="https://komarev.com/ghpvc/?username=wasabeef&color=blue&style=flat-square&label=visitors" align="right" />

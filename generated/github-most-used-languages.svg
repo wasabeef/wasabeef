@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240" role="img" aria-labelledby="title desc">
+  <title id="title">wasabeef Most Used Languages</title>
+  <desc id="desc">Auto-generated GitHub language usage card based on public repositories.</desc>
+  <style>
+    .title { fill: #41b883; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .tile-label { fill: #273849; font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .tile-rank { fill: #5f7383; font: 600 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .legend-name { fill: #273849; font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .percent { fill: #5f7383; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .donut-main { fill: #273849; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .donut-sub { fill: #5f7383; font: 600 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .empty { fill: #5f7383; font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; }
+  </style>
+  <rect x="1" y="1" width="493" height="238" rx="12" fill="#fffefe" stroke="#e4e2e2" />
+  <g transform="translate(24,13) scale(1.0000)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 .4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.84c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="#41b883" /></g>
+  <text x="48" y="23" class="title" dominant-baseline="middle">Most Used Languages</text>
+  
+                <g transform="translate(24,54)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#dea584" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#fff5ef" />
+          <g fill="none" stroke="#dea584" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="8" r="4.1" stroke-width="1.1" />
+            <circle cx="8" cy="8" r="5.8" stroke-width="1.1" stroke-dasharray="1 1.9" />
+          </g>
+          <text x="8" y="8.7" text-anchor="middle" dominant-baseline="middle" fill="#8b5e3c" style="font:700 6px 'Segoe UI', Ubuntu, Sans-Serif;">R</text>
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:12px;">Rust</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#1</text>
+                </g>
+                
+                <g transform="translate(130,54)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#b07219" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#fff4e8" />
+          <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 4c.8-.8 1.2-1.3 1-2M8.5 4.5c.8-.7 1.2-1.3 1.3-2.2" stroke="#f89820" stroke-width="1" />
+            <path d="M4.2 7.2h5.4c1 0 1.7.7 1.7 1.7v1H5.7c-1 0-1.6-.6-1.6-1.5 0-.5 0-.7.1-1.2Z" stroke="#5382a1" stroke-width="1" />
+            <path d="M5 11.5c1 .6 4 .6 5 0" stroke="#5382a1" stroke-width="1" />
+          </g>
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:12px;">Java</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#2</text>
+                </g>
+                
+                <g transform="translate(24,114)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#3178c6" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#3178c6" />
+          <text x="8" y="8.4" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" style="font:700 6.4px 'Segoe UI', Ubuntu, Sans-Serif;">TS</text>
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:10px;">TypeScript</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#3</text>
+                </g>
+                
+                <g transform="translate(130,114)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#00B4AB" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#e8fbfb" />
+          <path d="M3 2.5 8.5 1 13 5.5 8 15 3 10.5Z" fill="#00B4AB" />
+          <path d="M8.5 1 13 5.5 8.6 7.2 6 4.7Z" fill="#00838f" />
+          <path d="M6 4.7 8.6 7.2 8 15 3 10.5Z" fill="#26c6da" />
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:12px;">Dart</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#4</text>
+                </g>
+                
+                <g transform="translate(24,174)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#A97BFF" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#f5efff" />
+          <path d="M2 2h12L8.2 7.8 14 14H9.2L5.8 10.2 2 14Z" fill="#A97BFF" />
+          <path d="M2 2h6.2L2 8.1Z" fill="#7f52ff" />
+          <path d="M14 2 8.2 7.8 14 14Z" fill="#ff7f52" />
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:12px;">Kotlin</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#5</text>
+                </g>
+                
+                <g transform="translate(130,174)">
+                  <rect width="96" height="50" rx="12" fill="#edf3ef" />
+                  <rect y="46" width="96" height="4" rx="2" fill="#000080" />
+                  <g transform="translate(12,10) scale(1.1250)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#eef1ff" />
+          <circle cx="8" cy="8" r="5.8" fill="#000080" />
+          <circle cx="6.4" cy="7.4" r="3.4" fill="#ffffff" />
+          <circle cx="8" cy="7.4" r="3.4" fill="#000080" />
+          <circle cx="11.2" cy="4.8" r="1.1" fill="#ffffff" />
+        </g>
+        </g>
+                  <text x="38" y="18" class="tile-label" dominant-baseline="middle" style="font-size:12px;">Lua</text>
+                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#6</text>
+                </g>
+                
+  <path d="M294.00,78.00 A54.00,54.00 0 0 1 311.76,183.00 L304.85,163.16 A33.00,33.00 0 0 0 294.00,99.00 Z" fill="#dea584" /><path d="M311.76,183.00 A54.00,54.00 0 0 1 261.90,175.42 L274.38,158.54 A33.00,33.00 0 0 0 304.85,163.16 Z" fill="#b07219" /><path d="M261.90,175.42 A54.00,54.00 0 0 1 242.83,149.25 L262.73,142.54 A33.00,33.00 0 0 0 274.38,158.54 Z" fill="#3178c6" /><path d="M242.83,149.25 A54.00,54.00 0 0 1 241.90,117.81 L262.16,123.33 A33.00,33.00 0 0 0 262.73,142.54 Z" fill="#00B4AB" /><path d="M241.90,117.81 A54.00,54.00 0 0 1 255.03,94.62 L270.19,109.16 A33.00,33.00 0 0 0 262.16,123.33 Z" fill="#A97BFF" /><path d="M255.03,94.62 A54.00,54.00 0 0 1 275.23,81.37 L282.53,101.06 A33.00,33.00 0 0 0 270.19,109.16 Z" fill="#000080" /><path d="M275.23,81.37 A54.00,54.00 0 0 1 294.00,78.00 L294.00,99.00 A33.00,33.00 0 0 0 282.53,101.06 Z" fill="#edf3ef" /><circle cx="294" cy="132" r="31" fill="#fffefe" /><text x="294" y="124" text-anchor="middle" class="donut-main" dominant-baseline="middle">44.7%</text><text x="294" y="144" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  
+                <g transform="translate(356,56)">
+                  <circle cx="5" cy="8" r="5" fill="#dea584" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">Rust</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">44.7%</text>
+                </g>
+                
+                <g transform="translate(356,80)">
+                  <circle cx="5" cy="8" r="5" fill="#b07219" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">Java</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">15.5%</text>
+                </g>
+                
+                <g transform="translate(356,104)">
+                  <circle cx="5" cy="8" r="5" fill="#3178c6" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">TypeScript</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">9.7%</text>
+                </g>
+                
+                <g transform="translate(356,128)">
+                  <circle cx="5" cy="8" r="5" fill="#00B4AB" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">Dart</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">9.4%</text>
+                </g>
+                
+                <g transform="translate(356,152)">
+                  <circle cx="5" cy="8" r="5" fill="#A97BFF" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">Kotlin</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">7.9%</text>
+                </g>
+                
+                <g transform="translate(356,176)">
+                  <circle cx="5" cy="8" r="5" fill="#000080" />
+                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">Lua</text>
+                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">7.2%</text>
+                </g>
+                
+  
+</svg>
