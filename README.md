@@ -17,8 +17,6 @@ I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert fo
 
 <br/>
 
-### 📈 GitHub Stats
-
 <p align="center">
   <img width="49%" src="./generated/github-stats.svg" alt="Wasabeef's GitHub stats" />
   <img width="49%" src="./generated/github-most-used-languages.svg" alt="Wasabeef's most used languages" />
