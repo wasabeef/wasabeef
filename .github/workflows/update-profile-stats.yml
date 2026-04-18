@@ -3,7 +3,7 @@ name: Update Profile Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 0 * * *"
+    - cron: "0 2 * * *"
 
 permissions:
   contents: write
@@ -13,21 +13,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Decide whether to update today
+        id: cadence
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual run detected. Continuing."
+            exit 0
+          fi
+
+          if [ $(( RANDOM % 2 )) -eq 0 ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Scheduled run selected. Continuing."
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+            echo "Scheduled run skipped today."
+          fi
+
       - name: Checkout
+        if: steps.cadence.outputs.should_run == 'true'
         uses: actions/checkout@v4
 
       - name: Setup Python
+        if: steps.cadence.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Generate SVG cards
+        if: steps.cadence.outputs.should_run == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_USERNAME: wasabeef
         run: python3 scripts/generate_profile_stats.py
 
       - name: Commit updated SVG cards
+        if: steps.cadence.outputs.should_run == 'true'
         run: |
           if git diff --quiet -- generated; then
             echo "No SVG updates"
