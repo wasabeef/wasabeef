@@ -1,21 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="252" viewBox="0 0 495 252" role="img" aria-labelledby="title desc">
   <title id="title">wasabeef Recent Releases</title>
   <desc id="desc">Auto-generated card showing the most recent published releases across public repositories.</desc>
   <style>
-    .title { fill: #41b883; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .repo { fill: #273849; font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .date { fill: #5f7383; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .tag { fill: #41b883; font: 700 10px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .desc { fill: #5f7383; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .title { fill: #41b883; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .repo { fill: #273849; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .date { fill: #5f7383; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .tag { fill: #41b883; font: 700 11px 'Segoe UI', Ubuntu, Sans-Serif; }
     .empty { fill: #5f7383; font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; }
   </style>
-  <rect x="1" y="1" width="493" height="238" rx="12" fill="#fffefe" stroke="#e4e2e2" />
-  <g transform="translate(24,13) scale(1.0000)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 .4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.84c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="#41b883" /></g>
-  <text x="48" y="23" class="title" dominant-baseline="middle">Recent Releases</text>
+  <rect x="1" y="1" width="493" height="250" rx="12" fill="#fffefe" stroke="none" />
+  <g transform="translate(24,14) scale(1.0625)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 .4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.84c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="#41b883" /></g>
+  <text x="49" y="25" class="title" dominant-baseline="middle">Recent Releases</text>
   
-                <g transform="translate(24,54)">
-                  <rect width="447" height="48" rx="11" fill="#edf3ef" />
-                  <g transform="translate(12,16) scale(1.0000)">
+                <g transform="translate(24,58)">
+                  <rect width="447" height="58" rx="12" fill="#edf3ef" />
+                  <g transform="translate(10,19) scale(1.2500)">
         <g transform="translate(0,0)">
           <rect width="16" height="16" rx="4" fill="#eef1ff" />
           <circle cx="8" cy="8" r="5.8" fill="#000080" />
@@ -24,31 +23,29 @@
           <circle cx="11.2" cy="4.8" r="1.1" fill="#ffffff" />
         </g>
         </g>
-                  <text x="40" y="15" class="repo" dominant-baseline="middle">melos.nvim</text>
-                  <text x="431" y="15" text-anchor="end" class="date" dominant-baseline="middle">2026-04-18</text>
-                  <rect x="40" y="25" width="58" height="16" rx="8" fill="#fffefe" />
-                  <text x="69.00" y="33" text-anchor="middle" class="tag" dominant-baseline="middle">v1.0.0</text>
-                  <text x="106.00" y="33" class="desc" dominant-baseline="middle"></text>
+                  <text x="40" y="29" class="repo" dominant-baseline="middle">melos.nvim</text>
+                  <text x="431" y="19" text-anchor="end" class="date" dominant-baseline="middle">2026-04-18</text>
+                  <rect x="373.00" y="31" width="58" height="18" rx="9" fill="#fffefe" />
+                  <text x="402.00" y="40" text-anchor="middle" class="tag" dominant-baseline="middle">v1.0.0</text>
                 </g>
                 
-                <g transform="translate(24,112)">
-                  <rect width="447" height="48" rx="11" fill="#edf3ef" />
-                  <g transform="translate(12,16) scale(1.0000)">
+                <g transform="translate(24,120)">
+                  <rect width="447" height="58" rx="12" fill="#edf3ef" />
+                  <g transform="translate(10,19) scale(1.2500)">
     <g transform="translate(0,0)">
       <rect width="16" height="16" rx="4" fill="#89e051" />
       <text x="8" y="9" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" style="font:700 7px 'Segoe UI', Ubuntu, Sans-Serif;">SH</text>
     </g>
     </g>
-                  <text x="40" y="15" class="repo" dominant-baseline="middle">claude-code-cookbook</text>
-                  <text x="431" y="15" text-anchor="end" class="date" dominant-baseline="middle">2026-04-15</text>
-                  <rect x="40" y="25" width="58" height="16" rx="8" fill="#fffefe" />
-                  <text x="69.00" y="33" text-anchor="middle" class="tag" dominant-baseline="middle">v3.2.0</text>
-                  <text x="106.00" y="33" class="desc" dominant-baseline="middle"></text>
+                  <text x="40" y="29" class="repo" dominant-baseline="middle">claude-code-cookbook</text>
+                  <text x="431" y="19" text-anchor="end" class="date" dominant-baseline="middle">2026-04-15</text>
+                  <rect x="373.00" y="31" width="58" height="18" rx="9" fill="#fffefe" />
+                  <text x="402.00" y="40" text-anchor="middle" class="tag" dominant-baseline="middle">v3.2.0</text>
                 </g>
                 
-                <g transform="translate(24,170)">
-                  <rect width="447" height="48" rx="11" fill="#edf3ef" />
-                  <g transform="translate(12,16) scale(1.0000)">
+                <g transform="translate(24,182)">
+                  <rect width="447" height="58" rx="12" fill="#edf3ef" />
+                  <g transform="translate(10,19) scale(1.2500)">
         <g transform="translate(0,0)">
           <rect width="16" height="16" rx="4" fill="#e8fbfb" />
           <path d="M3 2.5 8.5 1 13 5.5 8 15 3 10.5Z" fill="#00B4AB" />
@@ -56,11 +53,10 @@
           <path d="M6 4.7 8.6 7.2 8 15 3 10.5Z" fill="#26c6da" />
         </g>
         </g>
-                  <text x="40" y="15" class="repo" dominant-baseline="middle">flutter_ua_client_hints</text>
-                  <text x="431" y="15" text-anchor="end" class="date" dominant-baseline="middle">2026-04-14</text>
-                  <rect x="40" y="25" width="58" height="16" rx="8" fill="#fffefe" />
-                  <text x="69.00" y="33" text-anchor="middle" class="tag" dominant-baseline="middle">v1.7.0</text>
-                  <text x="106.00" y="33" class="desc" dominant-baseline="middle"></text>
+                  <text x="40" y="29" class="repo" dominant-baseline="middle">flutter_ua_client_hints</text>
+                  <text x="431" y="19" text-anchor="end" class="date" dominant-baseline="middle">2026-04-14</text>
+                  <rect x="373.00" y="31" width="58" height="18" rx="9" fill="#fffefe" />
+                  <text x="402.00" y="40" text-anchor="middle" class="tag" dominant-baseline="middle">v1.7.0</text>
                 </g>
                 
 </svg>

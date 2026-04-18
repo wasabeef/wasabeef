@@ -1,67 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="252" viewBox="0 0 495 252" role="img" aria-labelledby="title desc">
   <title id="title">wasabeef GitHub Stats</title>
   <desc id="desc">Auto-generated GitHub stats card with stars, followers, public repositories, contributions, and a monthly contribution graph.</desc>
   <style>
-    .title { fill: #41b883; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .label { fill: #5f7383; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .value { fill: #273849; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .section { fill: #273849; font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }
-    .axis { fill: #5f7383; font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .title { fill: #41b883; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .label { fill: #5f7383; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .value { fill: #273849; font: 700 18px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .section { fill: #273849; font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; }
+    .axis { fill: #5f7383; font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; }
   </style>
-  <rect x="1" y="1" width="493" height="238" rx="12" fill="#fffefe" stroke="#e4e2e2" />
-  <g transform="translate(24,13) scale(1.0000)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 .4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.84c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="#41b883" /></g>
-  <text x="48" y="23" class="title" dominant-baseline="middle">GitHub Stats</text>
+  <rect x="1" y="1" width="493" height="250" rx="12" fill="#fffefe" stroke="none" />
+  <g transform="translate(24,14) scale(1.0625)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59 .4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.84c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" fill="#41b883" /></g>
+  <text x="49" y="25" class="title" dominant-baseline="middle">GitHub Stats</text>
   
-            <g transform="translate(24,52)">
-              <rect width="216" height="44" rx="11" fill="#edf3ef" />
-              <polygon transform="translate(14,15)" points="7,0.5 8.9,5 13.5,5.3 10,8.2 11.2,12.9 7,10.4 2.8,12.9 4,8.2 0.5,5.3 5.1,5" fill="#41b883" />
-              <text x="34" y="13" class="label" dominant-baseline="middle">Total GitHub Stars</text>
-              <text x="34" y="30" class="value" dominant-baseline="middle">112,229</text>
+            <g transform="translate(24,54)">
+              <rect width="216" height="48" rx="12" fill="#edf3ef" />
+              <polygon transform="translate(14,17)" points="7,0.5 8.9,5 13.5,5.3 10,8.2 11.2,12.9 7,10.4 2.8,12.9 4,8.2 0.5,5.3 5.1,5" fill="#41b883" />
+              <text x="34" y="14" class="label" dominant-baseline="middle">Total GitHub Stars</text>
+              <text x="34" y="33" class="value" dominant-baseline="middle">112,232</text>
             </g>
             
-            <g transform="translate(252,52)">
-              <rect width="216" height="44" rx="11" fill="#edf3ef" />
+            <g transform="translate(252,54)">
+              <rect width="216" height="48" rx="12" fill="#edf3ef" />
               
-        <g transform="translate(14,15)" fill="none" stroke="#41b883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(14,17)" fill="none" stroke="#41b883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="5" cy="4.5" r="2.3" />
           <path d="M1.8 12.4c0-2 1.4-3.5 3.2-3.5s3.2 1.5 3.2 3.5" />
           <circle cx="10.8" cy="5.2" r="1.6" />
           <path d="M9.4 11.9c.5-1.3 1.5-2.2 2.9-2.4" />
         </g>
         
-              <text x="34" y="13" class="label" dominant-baseline="middle">Total GitHub Followers</text>
-              <text x="34" y="30" class="value" dominant-baseline="middle">9,618</text>
+              <text x="34" y="14" class="label" dominant-baseline="middle">Total GitHub Followers</text>
+              <text x="34" y="33" class="value" dominant-baseline="middle">9,618</text>
             </g>
             
-            <g transform="translate(24,102)">
-              <rect width="216" height="44" rx="11" fill="#edf3ef" />
+            <g transform="translate(24,108)">
+              <rect width="216" height="48" rx="12" fill="#edf3ef" />
               
-        <g transform="translate(14,15)" fill="none" stroke="#41b883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(14,17)" fill="none" stroke="#41b883" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
           <rect x="1.5" y="1.5" width="11" height="11" rx="2" />
           <path d="M4 4.5h6M4 7h6M4 9.5h4" />
         </g>
         
-              <text x="34" y="13" class="label" dominant-baseline="middle">Public Repositories</text>
-              <text x="34" y="30" class="value" dominant-baseline="middle">47</text>
+              <text x="34" y="14" class="label" dominant-baseline="middle">Public Repositories</text>
+              <text x="34" y="33" class="value" dominant-baseline="middle">47</text>
             </g>
             
-            <g transform="translate(252,102)">
-              <rect width="216" height="44" rx="11" fill="#edf3ef" />
+            <g transform="translate(252,108)">
+              <rect width="216" height="48" rx="12" fill="#edf3ef" />
               
-        <g transform="translate(14,15)" fill="none" stroke="#41b883" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(14,17)" fill="none" stroke="#41b883" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="1.5,10.5 4.5,7.5 6.8,8.8 10,4.8 12.5,6.3" />
           <path d="M1.5 12.5h11" stroke-width="1.2" />
         </g>
         
-              <text x="34" y="13" class="label" dominant-baseline="middle">Contributions (365d)</text>
-              <text x="34" y="30" class="value" dominant-baseline="middle">3,924</text>
+              <text x="34" y="14" class="label" dominant-baseline="middle">Contributions (365d)</text>
+              <text x="34" y="33" class="value" dominant-baseline="middle">3,934</text>
             </g>
             
-  <text x="24" y="170" class="section">Monthly Contributions</text>
-  <line x1="36" y1="210" x2="466" y2="210" stroke="#dce6e0" />
-  <line x1="36" y1="196" x2="466" y2="196" stroke="#dce6e0" stroke-dasharray="3 3" />
-  <polyline fill="none" stroke="#41b883" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="36.00,191.02 75.09,182.00 114.18,186.51 153.27,201.46 192.36,202.52 231.45,193.01 270.55,202.97 309.64,202.30 348.73,199.43 387.82,202.35 426.91,202.04 466.00,182.71" />
-  <circle cx="466" cy="182.71" r="4" fill="#41b883" />
-  <text x="466" y="176" text-anchor="end" class="axis">Peak 633</text>
-  <text x="36.00" y="232" text-anchor="middle" class="axis">May</text><text x="114.18" y="232" text-anchor="middle" class="axis">Jul</text><text x="192.36" y="232" text-anchor="middle" class="axis">Sep</text><text x="270.55" y="232" text-anchor="middle" class="axis">Nov</text><text x="348.73" y="232" text-anchor="middle" class="axis">Jan</text><text x="426.91" y="232" text-anchor="middle" class="axis">Mar</text><text x="466.00" y="232" text-anchor="middle" class="axis">Apr</text>
+  <text x="24" y="176" class="section">Monthly Contributions</text>
+  <line x1="36" y1="222" x2="466" y2="222" stroke="#dce6e0" />
+  <line x1="36" y1="206" x2="466" y2="206" stroke="#dce6e0" stroke-dasharray="3 3" />
+  <polyline fill="none" stroke="#41b883" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="36.00,196.31 75.09,186.00 114.18,191.16 153.27,208.24 192.36,209.46 231.45,198.59 270.55,209.96 309.64,209.20 348.73,205.92 387.82,209.25 426.91,208.90 466.00,186.30" />
+  <circle cx="466" cy="186.30" r="4" fill="#41b883" />
+  <text x="466" y="184" text-anchor="end" class="axis">Peak 633</text>
+  <text x="36.00" y="244" text-anchor="middle" class="axis">May</text><text x="114.18" y="244" text-anchor="middle" class="axis">Jul</text><text x="192.36" y="244" text-anchor="middle" class="axis">Sep</text><text x="270.55" y="244" text-anchor="middle" class="axis">Nov</text><text x="348.73" y="244" text-anchor="middle" class="axis">Jan</text><text x="426.91" y="244" text-anchor="middle" class="axis">Mar</text><text x="466.00" y="244" text-anchor="middle" class="axis">Apr</text>
 </svg>

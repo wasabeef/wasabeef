@@ -17,11 +17,11 @@ from urllib.request import Request, urlopen
 GRAPHQL_ENDPOINT = "https://api.github.com/graphql"
 OUTPUT_DIR = Path("generated")
 CARD_WIDTH = 495
-CARD_HEIGHT = 240
+CARD_HEIGHT = 252
 
 THEME = {
     "background": "#fffefe",
-    "border": "#e4e2e2",
+    "border": "none",
     "title": "#41b883",
     "text": "#273849",
     "muted": "#5f7383",
@@ -268,8 +268,8 @@ def build_overview_svg(username: str, stats: dict[str, int], monthly_contributio
 
     month_keys = sorted(monthly_contributions.keys())[-12:]
     month_values = [monthly_contributions[key] for key in month_keys]
-    chart_height = 28
-    chart_top = 182
+    chart_height = 32
+    chart_top = 186
     chart_points = chunk_points(month_values, width=430, height=chart_height, left=36, top=chart_top)
     max_month_value = max(month_values) if month_values else 0
     boxes_svg = []
@@ -277,14 +277,14 @@ def build_overview_svg(username: str, stats: dict[str, int], monthly_contributio
         row = index // 2
         col = index % 2
         x = 24 + (col * 228)
-        y = 52 + (row * 50)
+        y = 54 + (row * 54)
         boxes_svg.append(
             f"""
             <g transform="translate({x},{y})">
-              <rect width="216" height="44" rx="11" fill="{THEME['bar_bg']}" />
-              {render_metric_icon(icon_kind, 14, 15, THEME['title'])}
-              <text x="34" y="13" class="label" dominant-baseline="middle">{escape(label)}</text>
-              <text x="34" y="30" class="value" dominant-baseline="middle">{escape(value)}</text>
+              <rect width="216" height="48" rx="12" fill="{THEME['bar_bg']}" />
+              {render_metric_icon(icon_kind, 14, 17, THEME['title'])}
+              <text x="34" y="14" class="label" dominant-baseline="middle">{escape(label)}</text>
+              <text x="34" y="33" class="value" dominant-baseline="middle">{escape(value)}</text>
             </g>
             """
         )
@@ -294,29 +294,29 @@ def build_overview_svg(username: str, stats: dict[str, int], monthly_contributio
         if len(month_keys) <= 6 or index in {0, 2, 4, 6, 8, 10, len(month_keys) - 1}:
             x = 36 + ((430 / max(1, len(month_keys) - 1)) * index)
             month_labels_svg.append(
-                f'<text x="{x:.2f}" y="232" text-anchor="middle" class="axis">{escape(month_label(key))}</text>'
+                f'<text x="{x:.2f}" y="244" text-anchor="middle" class="axis">{escape(month_label(key))}</text>'
             )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" role="img" aria-labelledby="title desc">
   <title id="title">{escape(username)} GitHub Stats</title>
   <desc id="desc">Auto-generated GitHub stats card with stars, followers, public repositories, contributions, and a monthly contribution graph.</desc>
   <style>
-    .title {{ fill: {THEME['title']}; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .label {{ fill: {THEME['muted']}; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .value {{ fill: {THEME['text']}; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .section {{ fill: {THEME['text']}; font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .axis {{ fill: {THEME['muted']}; font: 400 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .title {{ fill: {THEME['title']}; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .label {{ fill: {THEME['muted']}; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .value {{ fill: {THEME['text']}; font: 700 18px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .section {{ fill: {THEME['text']}; font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .axis {{ fill: {THEME['muted']}; font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
   </style>
   <rect x="1" y="1" width="{CARD_WIDTH - 2}" height="{CARD_HEIGHT - 2}" rx="12" fill="{THEME['background']}" stroke="{THEME['border']}" />
-  {render_github_mark(24, 13, 16, THEME['title'])}
-  <text x="48" y="23" class="title" dominant-baseline="middle">GitHub Stats</text>
+  {render_github_mark(24, 14, 17, THEME['title'])}
+  <text x="49" y="25" class="title" dominant-baseline="middle">GitHub Stats</text>
   {''.join(boxes_svg)}
-  <text x="24" y="170" class="section">Monthly Contributions</text>
-  <line x1="36" y1="210" x2="466" y2="210" stroke="{THEME['grid']}" />
-  <line x1="36" y1="196" x2="466" y2="196" stroke="{THEME['grid']}" stroke-dasharray="3 3" />
+  <text x="24" y="176" class="section">Monthly Contributions</text>
+  <line x1="36" y1="222" x2="466" y2="222" stroke="{THEME['grid']}" />
+  <line x1="36" y1="206" x2="466" y2="206" stroke="{THEME['grid']}" stroke-dasharray="3 3" />
   <polyline fill="none" stroke="{THEME['title']}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="{chart_points}" />
   <circle cx="466" cy="{chart_top + chart_height - ((month_values[-1] / (max_month_value or 1)) * chart_height if month_values else chart_height):.2f}" r="4" fill="{THEME['title']}" />
-  <text x="466" y="176" text-anchor="end" class="axis">Peak {format_number(max_month_value)}</text>
+  <text x="466" y="184" text-anchor="end" class="axis">Peak {format_number(max_month_value)}</text>
   {''.join(month_labels_svg)}
 </svg>
 """
@@ -325,19 +325,18 @@ def build_overview_svg(username: str, stats: dict[str, int], monthly_contributio
 def build_language_svg(username: str, language_stats: list[dict[str, Any]], total_bytes: int) -> str:
     top_languages = language_stats[:6]
     grid_svg = []
-    legend_svg = []
     donut_svg = []
     footer = ""
 
     if not top_languages:
         footer = f'<text x="24" y="120" class="empty">No public repository language data was found.</text>'
     else:
-        tile_width = 96
-        tile_height = 50
+        tile_width = 118
+        tile_height = 58
         tile_gap_x = 10
         tile_gap_y = 10
         grid_start_x = 24
-        grid_start_y = 54
+        grid_start_y = 56
 
         for index, language in enumerate(top_languages):
             col = index % 2
@@ -346,37 +345,27 @@ def build_language_svg(username: str, language_stats: list[dict[str, Any]], tota
             tile_y = grid_start_y + row * (tile_height + tile_gap_y)
             percentage = (language["size"] / total_bytes * 100) if total_bytes else 0
             label_text = language["name"]
-            label_font_size = 12 if len(label_text) <= 8 else 11 if len(label_text) <= 9 else 10 if len(label_text) <= 10 else 9.5
-            icon_size = 18
+            label_font_size = 14 if len(label_text) <= 8 else 13 if len(label_text) <= 10 else 12
+            icon_size = 20
             icon_x = 12
-            label_x = 38
+            label_x = 41
             grid_svg.append(
                 f"""
                 <g transform="translate({tile_x},{tile_y})">
                   <rect width="{tile_width}" height="{tile_height}" rx="12" fill="{THEME['bar_bg']}" />
                   <rect y="{tile_height - 4}" width="{tile_width}" height="4" rx="2" fill="{escape(language['color'])}" />
-                  {render_scaled_language_icon(language['name'], icon_x, 10, icon_size, language['color'])}
-                  <text x="{label_x}" y="18" class="tile-label" dominant-baseline="middle" style="font-size:{label_font_size}px;">{escape(label_text)}</text>
-                  <text x="12" y="35" class="tile-rank" dominant-baseline="middle">#{index + 1}</text>
+                  {render_scaled_language_icon(language['name'], icon_x, 12, icon_size, language['color'])}
+                  <text x="{label_x}" y="22" class="tile-label" dominant-baseline="middle" style="font-size:{label_font_size}px;">{escape(label_text)}</text>
+                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#{index + 1}</text>
+                  <text x="{tile_width - 12}" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">{percentage:.1f}%</text>
                 </g>
                 """
             )
 
-            legend_y = 56 + (index * 24)
-            legend_svg.append(
-                f"""
-                <g transform="translate(356,{legend_y})">
-                  <circle cx="5" cy="8" r="5" fill="{escape(language['color'])}" />
-                  <text x="16" y="8" class="legend-name" dominant-baseline="middle">{escape(truncate_text(language['name'], 12))}</text>
-                  <text x="104" y="8" text-anchor="end" class="percent" dominant-baseline="middle">{percentage:.1f}%</text>
-                </g>
-                """
-            )
-
-        cx = 294
-        cy = 132
-        outer_radius = 54
-        inner_radius = 33
+        cx = 376
+        cy = 138
+        outer_radius = 80
+        inner_radius = 49
         current_angle = 0.0
         for language in top_languages:
             percentage = (language["size"] / total_bytes * 100) if total_bytes else 0
@@ -395,31 +384,29 @@ def build_language_svg(username: str, language_stats: list[dict[str, Any]], tota
         top_percentage = (top_language["size"] / total_bytes * 100) if total_bytes else 0
         donut_svg.append(f'<circle cx="{cx}" cy="{cy}" r="{inner_radius - 2}" fill="{THEME["background"]}" />')
         donut_svg.append(
-            f'<text x="{cx}" y="{cy - 8}" text-anchor="middle" class="donut-main" dominant-baseline="middle">{top_percentage:.1f}%</text>'
+            f'<text x="{cx}" y="{cy - 9}" text-anchor="middle" class="donut-main" dominant-baseline="middle">{top_percentage:.1f}%</text>'
         )
         donut_svg.append(
-            f'<text x="{cx}" y="{cy + 12}" text-anchor="middle" class="donut-sub" dominant-baseline="middle">{escape(top_language["name"])}</text>'
+            f'<text x="{cx}" y="{cy + 13}" text-anchor="middle" class="donut-sub" dominant-baseline="middle">{escape(top_language["name"])}</text>'
         )
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{CARD_WIDTH}" height="{CARD_HEIGHT}" viewBox="0 0 {CARD_WIDTH} {CARD_HEIGHT}" role="img" aria-labelledby="title desc">
   <title id="title">{escape(username)} Most Used Languages</title>
   <desc id="desc">Auto-generated GitHub language usage card based on public repositories.</desc>
   <style>
-    .title {{ fill: {THEME['title']}; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .tile-label {{ fill: {THEME['text']}; font: 700 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .tile-rank {{ fill: {THEME['muted']}; font: 600 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .legend-name {{ fill: {THEME['text']}; font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .percent {{ fill: {THEME['muted']}; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .donut-main {{ fill: {THEME['text']}; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .donut-sub {{ fill: {THEME['muted']}; font: 600 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .title {{ fill: {THEME['title']}; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .tile-label {{ fill: {THEME['text']}; font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .tile-rank {{ fill: {THEME['muted']}; font: 600 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .tile-percent {{ fill: {THEME['muted']}; font: 700 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .donut-main {{ fill: {THEME['text']}; font: 700 22px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .donut-sub {{ fill: {THEME['muted']}; font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
     .empty {{ fill: {THEME['muted']}; font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
   </style>
   <rect x="1" y="1" width="{CARD_WIDTH - 2}" height="{CARD_HEIGHT - 2}" rx="12" fill="{THEME['background']}" stroke="{THEME['border']}" />
-  {render_github_mark(24, 13, 16, THEME['title'])}
-  <text x="48" y="23" class="title" dominant-baseline="middle">Most Used Languages</text>
+  {render_github_mark(24, 14, 17, THEME['title'])}
+  <text x="49" y="25" class="title" dominant-baseline="middle">Most Used Languages</text>
   {''.join(grid_svg)}
   {''.join(donut_svg)}
-  {''.join(legend_svg)}
   {footer}
 </svg>
 """
@@ -437,25 +424,25 @@ def build_top_repositories_svg(username: str, repositories: list[dict[str, Any]]
         rows_svg.append('<text x="24" y="120" class="empty">No public repositories were found.</text>')
     else:
         for index, repository in enumerate(top_repositories):
-            y = 54 + (index * 58)
+            y = 58 + (index * 62)
             fallback_language = ((((repository.get("languages") or {}).get("edges")) or [{}])[0].get("node")) or {}
             language = repository.get("primaryLanguage") or fallback_language or {}
             language_name = language.get("name") or "Unknown"
             language_color = language.get("color") or THEME["title"]
             language_icon = (
-                render_scaled_language_icon(language_name, 12, 16, 16, language_color)
+                render_scaled_language_icon(language_name, 10, 14, 20, language_color)
                 if language_name != "Unknown"
-                else f'<circle cx="20" cy="24" r="6" fill="{language_color}" />'
+                else f'<circle cx="20" cy="27" r="7" fill="{language_color}" />'
             )
             rows_svg.append(
                 f"""
                 <g transform="translate(24,{y})">
-                  <rect width="447" height="48" rx="11" fill="{THEME['bar_bg']}" />
+                  <rect width="447" height="54" rx="12" fill="{THEME['bar_bg']}" />
                   {language_icon}
-                  <text x="40" y="16" class="repo" dominant-baseline="middle">{escape(repository['name'])}</text>
-                  {render_metric_icon("star", 372, 8, THEME['title'])}
-                  <text x="427" y="15" text-anchor="end" class="stars" dominant-baseline="middle">{escape(format_number(int(repository.get('stargazerCount') or 0)))}</text>
-                  <text x="40" y="31" class="desc" dominant-baseline="middle">{escape(truncate_text(repository.get('description') or 'Open-source project', 55))}</text>
+                  <text x="40" y="18" class="repo" dominant-baseline="middle">{escape(repository['name'])}</text>
+                  {render_metric_icon("star", 370, 20, THEME['title'])}
+                  <text x="429" y="27" text-anchor="end" class="stars" dominant-baseline="middle">{escape(format_number(int(repository.get('stargazerCount') or 0)))}</text>
+                  <text x="40" y="37" class="desc" dominant-baseline="middle">{escape(truncate_text(repository.get('description') or 'Open-source project', 55))}</text>
                 </g>
                 """
             )
@@ -464,15 +451,15 @@ def build_top_repositories_svg(username: str, repositories: list[dict[str, Any]]
   <title id="title">{escape(username)} Top Repositories by Stars</title>
   <desc id="desc">Auto-generated card showing the most starred public repositories.</desc>
   <style>
-    .title {{ fill: {THEME['title']}; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .repo {{ fill: {THEME['text']}; font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .stars {{ fill: {THEME['text']}; font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .desc {{ fill: {THEME['muted']}; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .title {{ fill: {THEME['title']}; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .repo {{ fill: {THEME['text']}; font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .stars {{ fill: {THEME['text']}; font: 700 14px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .desc {{ fill: {THEME['muted']}; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
     .empty {{ fill: {THEME['muted']}; font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
   </style>
   <rect x="1" y="1" width="{CARD_WIDTH - 2}" height="{CARD_HEIGHT - 2}" rx="12" fill="{THEME['background']}" stroke="{THEME['border']}" />
-  {render_github_mark(24, 13, 16, THEME['title'])}
-  <text x="48" y="23" class="title" dominant-baseline="middle">Top Repositories by Stars</text>
+  {render_github_mark(24, 14, 17, THEME['title'])}
+  <text x="49" y="25" class="title" dominant-baseline="middle">Top Repositories by Stars</text>
   {''.join(rows_svg)}
 </svg>
 """
@@ -507,26 +494,24 @@ def build_recent_releases_svg(username: str, repositories: list[dict[str, Any]])
         rows_svg.append('<text x="24" y="120" class="empty">No published releases were found.</text>')
     else:
         for index, release in enumerate(recent_releases):
-            y = 54 + (index * 58)
+            y = 58 + (index * 62)
             tag_text = truncate_text(release["tag_name"], 14)
-            release_name = truncate_text(release["name"], 36)
-            release_desc = "" if release_name.lower() == tag_text.lower() else release_name
+            repo_name = truncate_text(release["repo_name"], 24)
             tag_width = max(42, min(92, len(tag_text) * 7 + 16))
             language_icon = (
-                render_scaled_language_icon(release["language_name"], 12, 16, 16, release["language_color"])
+                render_scaled_language_icon(release["language_name"], 10, 19, 20, release["language_color"])
                 if release["language_name"] != "Unknown"
-                else f'<circle cx="20" cy="24" r="6" fill="{release["language_color"]}" />'
+                else f'<circle cx="20" cy="29" r="7" fill="{release["language_color"]}" />'
             )
             rows_svg.append(
                 f"""
                 <g transform="translate(24,{y})">
-                  <rect width="447" height="48" rx="11" fill="{THEME['bar_bg']}" />
+                  <rect width="447" height="58" rx="12" fill="{THEME['bar_bg']}" />
                   {language_icon}
-                  <text x="40" y="15" class="repo" dominant-baseline="middle">{escape(release['repo_name'])}</text>
-                  <text x="431" y="15" text-anchor="end" class="date" dominant-baseline="middle">{escape(format_short_date(release['published_at']))}</text>
-                  <rect x="40" y="25" width="{tag_width}" height="16" rx="8" fill="{THEME['background']}" />
-                  <text x="{40 + tag_width / 2:.2f}" y="33" text-anchor="middle" class="tag" dominant-baseline="middle">{escape(tag_text)}</text>
-                  <text x="{48 + tag_width:.2f}" y="33" class="desc" dominant-baseline="middle">{escape(release_desc)}</text>
+                  <text x="40" y="29" class="repo" dominant-baseline="middle">{escape(repo_name)}</text>
+                  <text x="431" y="19" text-anchor="end" class="date" dominant-baseline="middle">{escape(format_short_date(release['published_at']))}</text>
+                  <rect x="{431 - tag_width:.2f}" y="31" width="{tag_width}" height="18" rx="9" fill="{THEME['background']}" />
+                  <text x="{431 - tag_width / 2:.2f}" y="40" text-anchor="middle" class="tag" dominant-baseline="middle">{escape(tag_text)}</text>
                 </g>
                 """
             )
@@ -535,16 +520,15 @@ def build_recent_releases_svg(username: str, repositories: list[dict[str, Any]])
   <title id="title">{escape(username)} Recent Releases</title>
   <desc id="desc">Auto-generated card showing the most recent published releases across public repositories.</desc>
   <style>
-    .title {{ fill: {THEME['title']}; font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .repo {{ fill: {THEME['text']}; font: 700 13px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .date {{ fill: {THEME['muted']}; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .tag {{ fill: {THEME['title']}; font: 700 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
-    .desc {{ fill: {THEME['muted']}; font: 500 10px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .title {{ fill: {THEME['title']}; font: 600 19px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .repo {{ fill: {THEME['text']}; font: 700 16px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .date {{ fill: {THEME['muted']}; font: 500 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
+    .tag {{ fill: {THEME['title']}; font: 700 11px 'Segoe UI', Ubuntu, Sans-Serif; }}
     .empty {{ fill: {THEME['muted']}; font: 500 12px 'Segoe UI', Ubuntu, Sans-Serif; }}
   </style>
   <rect x="1" y="1" width="{CARD_WIDTH - 2}" height="{CARD_HEIGHT - 2}" rx="12" fill="{THEME['background']}" stroke="{THEME['border']}" />
-  {render_github_mark(24, 13, 16, THEME['title'])}
-  <text x="48" y="23" class="title" dominant-baseline="middle">Recent Releases</text>
+  {render_github_mark(24, 14, 17, THEME['title'])}
+  <text x="49" y="25" class="title" dominant-baseline="middle">Recent Releases</text>
   {''.join(rows_svg)}
 </svg>
 """
