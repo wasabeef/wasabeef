@@ -32,3 +32,5 @@ I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert fo
 ### ♡ Top Sponsors
 
 - [Become a sponsor](https://github.com/sponsors/wasabeef)
+
+<img src="https://komarev.com/ghpvc/?username=wasabeef&color=blue&style=flat-square&label=visitors" align="right" />
