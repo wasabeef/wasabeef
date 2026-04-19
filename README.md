@@ -1,19 +1,21 @@
 ### Hi <img src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/wave.gif" width="30px">
 <br/>
 
-I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert for Android](https://developers.google.com/community/experts/directory?hl=ja&specialization=android&text=Daichi%20Furiya)** 👨🏻‍💻 aspiring to become an Expert in the field of **Mobile** development. I’m also an **Open-Source** enthusiast with all of my projects open-sourced on [Github](https://github.com/wasabeef?tab=repositories).
+I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert for Android](https://developers.google.com/community/experts/directory?hl=ja&specialization=android&text=Daichi%20Furiya)** and a mobile engineer based in Tokyo. I enjoy building apps, libraries, and developer tools around **Android**, **Flutter**, and **OSS**, and most of what I make is open source on [GitHub](https://github.com/wasabeef?tab=repositories).
 <br/>
 <br/>
 
 <img align="right" alt="coding User Image" src="https://raw.githubusercontent.com/wasabeef/wasabeef/master/icons/chip.gif" height="180" />
 
-- 🗼 Living in **Tokyo, Japan**
+- 🗼 Based in **Tokyo, Japan**
 
-- 👨‍💻 Currently Working at CyberAgent
+- 👨‍💻 Working at **CyberAgent**
+
+- 🛠 Building **Android**, **Flutter**, and **OSS** projects
 
 - 👍 Dogs and Gaming 🐶 🎮
 
-- ✈️ Open to Job Opportunities 🍻
+- ✈️ Open to Job Opportunities and Collaborations 🍻
 
 <br />
 <br />
