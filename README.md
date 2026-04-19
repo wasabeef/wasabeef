@@ -15,6 +15,9 @@ I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert fo
 
 - ✈️ Open to Job Opportunities 🍻
 
+<br />
+<br />
+
 <br clear="both"/>
 
 <p align="center">
