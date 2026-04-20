@@ -45,12 +45,19 @@ jobs:
       - name: Resolve JST cache buster
         if: steps.cadence.outputs.should_run == 'true'
         id: cache_buster
-        run: echo "jst_date=$(TZ=Asia/Tokyo date +%F)" >> "$GITHUB_OUTPUT"
+        run: |
+          jst_date=$(TZ=Asia/Tokyo date +%F)
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "value=${jst_date}-${{ github.run_id }}-${{ github.run_attempt }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${jst_date}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Update README cache buster
         if: steps.cadence.outputs.should_run == 'true'
         env:
-          CACHE_BUSTER: ${{ steps.cache_buster.outputs.jst_date }}
+          CACHE_BUSTER: ${{ steps.cache_buster.outputs.value }}
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -68,7 +75,7 @@ jobs:
           )
 
           for filename in filenames:
-              pattern = rf'(\./generated/{re.escape(filename)}\.svg)(\?v=\d{{4}}-\d{{2}}-\d{{2}})?'
+              pattern = rf'(\./generated/{re.escape(filename)}\.svg)(\?v=[^"]+)?'
               replacement = rf'\1?v={cache_buster}'
               text = re.sub(pattern, replacement, text)
 
@@ -90,8 +97,8 @@ jobs:
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "wasabeef"
+          git config user.email "1833474+wasabeef@users.noreply.github.com"
           git add README.md generated/*.svg
           git commit -m "chore: update profile stats"
           git push
