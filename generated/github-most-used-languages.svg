@@ -29,10 +29,24 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Rust</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#1</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">44.4%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">33.5%</text>
                 </g>
                 
                 <g transform="translate(152,56)">
+                  <rect width="118" height="58" rx="12" fill="#edf3ef" />
+                  <rect y="54" width="118" height="4" rx="2" fill="#3178c6" />
+                  <g transform="translate(12,12) scale(1.2500)">
+        <g transform="translate(0,0)">
+          <rect width="16" height="16" rx="4" fill="#3178c6" />
+          <text x="8" y="8.4" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" style="font:700 6.4px 'Segoe UI', Ubuntu, Sans-Serif;">TS</text>
+        </g>
+        </g>
+                  <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
+                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">20.4%</text>
+                </g>
+                
+                <g transform="translate(24,124)">
                   <rect width="118" height="58" rx="12" fill="#edf3ef" />
                   <rect y="54" width="118" height="4" rx="2" fill="#b07219" />
                   <g transform="translate(12,12) scale(1.2500)">
@@ -46,25 +60,25 @@
         </g>
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Java</text>
-                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">15.4%</text>
-                </g>
-                
-                <g transform="translate(24,124)">
-                  <rect width="118" height="58" rx="12" fill="#edf3ef" />
-                  <rect y="54" width="118" height="4" rx="2" fill="#3178c6" />
-                  <g transform="translate(12,12) scale(1.2500)">
-        <g transform="translate(0,0)">
-          <rect width="16" height="16" rx="4" fill="#3178c6" />
-          <text x="8" y="8.4" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" style="font:700 6.4px 'Segoe UI', Ubuntu, Sans-Serif;">TS</text>
-        </g>
-        </g>
-                  <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#3</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">9.6%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">11.6%</text>
                 </g>
                 
                 <g transform="translate(152,124)">
+                  <rect width="118" height="58" rx="12" fill="#edf3ef" />
+                  <rect y="54" width="118" height="4" rx="2" fill="#fcb32c" />
+                  <g transform="translate(12,12) scale(1.2500)">
+    <g transform="translate(0,0)">
+      <rect width="16" height="16" rx="4" fill="#fcb32c" />
+      <text x="8" y="9" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" style="font:700 7px 'Segoe UI', Ubuntu, Sans-Serif;">MD</text>
+    </g>
+    </g>
+                  <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">MDX</text>
+                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#4</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.8%</text>
+                </g>
+                
+                <g transform="translate(24,192)">
                   <rect width="118" height="58" rx="12" fill="#edf3ef" />
                   <rect y="54" width="118" height="4" rx="2" fill="#00B4AB" />
                   <g transform="translate(12,12) scale(1.2500)">
@@ -76,11 +90,11 @@
         </g>
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Dart</text>
-                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#4</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">9.4%</text>
+                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#5</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.1%</text>
                 </g>
                 
-                <g transform="translate(24,192)">
+                <g transform="translate(152,192)">
                   <rect width="118" height="58" rx="12" fill="#edf3ef" />
                   <rect y="54" width="118" height="4" rx="2" fill="#A97BFF" />
                   <g transform="translate(12,12) scale(1.2500)">
@@ -92,27 +106,10 @@
         </g>
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Kotlin</text>
-                  <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#5</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.9%</text>
-                </g>
-                
-                <g transform="translate(152,192)">
-                  <rect width="118" height="58" rx="12" fill="#edf3ef" />
-                  <rect y="54" width="118" height="4" rx="2" fill="#000080" />
-                  <g transform="translate(12,12) scale(1.2500)">
-        <g transform="translate(0,0)">
-          <rect width="16" height="16" rx="4" fill="#eef1ff" />
-          <circle cx="8" cy="8" r="5.8" fill="#000080" />
-          <circle cx="6.4" cy="7.4" r="3.4" fill="#ffffff" />
-          <circle cx="8" cy="7.4" r="3.4" fill="#000080" />
-          <circle cx="11.2" cy="4.8" r="1.1" fill="#ffffff" />
-        </g>
-        </g>
-                  <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Lua</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#6</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.1%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">6.0%</text>
                 </g>
                 
-  <path d="M376.00,58.00 A80.00,80.00 0 0 1 403.60,213.09 L392.91,183.99 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M403.60,213.09 A80.00,80.00 0 0 1 329.94,203.41 L347.79,178.06 A49.00,49.00 0 0 0 392.91,183.99 Z" fill="#b07219" /><path d="M329.94,203.41 A80.00,80.00 0 0 1 300.90,165.58 L330.00,154.89 A49.00,49.00 0 0 0 347.79,178.06 Z" fill="#3178c6" /><path d="M300.90,165.58 A80.00,80.00 0 0 1 298.21,119.33 L328.35,126.57 A49.00,49.00 0 0 0 330.00,154.89 Z" fill="#00B4AB" /><path d="M298.21,119.33 A80.00,80.00 0 0 1 316.45,84.58 L339.52,105.28 A49.00,49.00 0 0 0 328.35,126.57 Z" fill="#A97BFF" /><path d="M316.45,84.58 A80.00,80.00 0 0 1 345.49,64.05 L357.31,92.70 A49.00,49.00 0 0 0 339.52,105.28 Z" fill="#000080" /><path d="M345.49,64.05 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 357.31,92.70 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">44.4%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  <path d="M376.00,58.00 A80.00,80.00 0 0 1 444.88,178.68 L418.19,162.92 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M444.88,178.68 A80.00,80.00 0 0 1 356.51,215.59 L364.06,185.52 A49.00,49.00 0 0 0 418.19,162.92 Z" fill="#3178c6" /><path d="M356.51,215.59 A80.00,80.00 0 0 1 309.80,182.91 L335.45,165.51 A49.00,49.00 0 0 0 364.06,185.52 Z" fill="#b07219" /><path d="M309.80,182.91 A80.00,80.00 0 0 1 296.44,146.34 L327.27,143.11 A49.00,49.00 0 0 0 335.45,165.51 Z" fill="#fcb32c" /><path d="M296.44,146.34 A80.00,80.00 0 0 1 300.55,111.41 L329.79,121.72 A49.00,49.00 0 0 0 327.27,143.11 Z" fill="#00B4AB" /><path d="M300.55,111.41 A80.00,80.00 0 0 1 315.47,85.69 L338.93,105.96 A49.00,49.00 0 0 0 329.79,121.72 Z" fill="#A97BFF" /><path d="M315.47,85.69 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 338.93,105.96 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">33.5%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
   
 </svg>
