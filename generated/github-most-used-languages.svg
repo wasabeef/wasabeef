@@ -29,7 +29,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Rust</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#1</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">33.5%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">33.0%</text>
                 </g>
                 
                 <g transform="translate(152,56)">
@@ -43,7 +43,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">20.4%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">21.6%</text>
                 </g>
                 
                 <g transform="translate(24,124)">
@@ -61,7 +61,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Java</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#3</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">11.6%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">11.4%</text>
                 </g>
                 
                 <g transform="translate(152,124)">
@@ -75,7 +75,7 @@
     </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">MDX</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#4</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.8%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.7%</text>
                 </g>
                 
                 <g transform="translate(24,192)">
@@ -91,7 +91,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Dart</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#5</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">7.1%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">6.9%</text>
                 </g>
                 
                 <g transform="translate(152,192)">
@@ -107,9 +107,9 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Kotlin</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#6</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">6.0%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">5.9%</text>
                 </g>
                 
-  <path d="M376.00,58.00 A80.00,80.00 0 0 1 444.88,178.68 L418.19,162.92 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M444.88,178.68 A80.00,80.00 0 0 1 356.51,215.59 L364.06,185.52 A49.00,49.00 0 0 0 418.19,162.92 Z" fill="#3178c6" /><path d="M356.51,215.59 A80.00,80.00 0 0 1 309.80,182.91 L335.45,165.51 A49.00,49.00 0 0 0 364.06,185.52 Z" fill="#b07219" /><path d="M309.80,182.91 A80.00,80.00 0 0 1 296.44,146.34 L327.27,143.11 A49.00,49.00 0 0 0 335.45,165.51 Z" fill="#fcb32c" /><path d="M296.44,146.34 A80.00,80.00 0 0 1 300.55,111.41 L329.79,121.72 A49.00,49.00 0 0 0 327.27,143.11 Z" fill="#00B4AB" /><path d="M300.55,111.41 A80.00,80.00 0 0 1 315.47,85.69 L338.93,105.96 A49.00,49.00 0 0 0 329.79,121.72 Z" fill="#A97BFF" /><path d="M315.47,85.69 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 338.93,105.96 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">33.5%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  <path d="M376.00,58.00 A80.00,80.00 0 0 1 446.21,176.34 L419.01,161.49 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M446.21,176.34 A80.00,80.00 0 0 1 353.23,214.69 L362.05,184.97 A49.00,49.00 0 0 0 419.01,161.49 Z" fill="#3178c6" /><path d="M353.23,214.69 A80.00,80.00 0 0 1 308.44,180.85 L334.62,164.24 A49.00,49.00 0 0 0 362.05,184.97 Z" fill="#b07219" /><path d="M308.44,180.85 A80.00,80.00 0 0 1 296.25,144.28 L327.15,141.85 A49.00,49.00 0 0 0 334.62,164.24 Z" fill="#fcb32c" /><path d="M296.25,144.28 A80.00,80.00 0 0 1 301.06,110.00 L330.10,120.85 A49.00,49.00 0 0 0 327.15,141.85 Z" fill="#00B4AB" /><path d="M301.06,110.00 A80.00,80.00 0 0 1 316.15,84.92 L339.34,105.49 A49.00,49.00 0 0 0 330.10,120.85 Z" fill="#A97BFF" /><path d="M316.15,84.92 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.34,105.49 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">33.0%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
   
 </svg>
