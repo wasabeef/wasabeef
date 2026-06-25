@@ -23,13 +23,13 @@ I'm [Daichi Furiya](https://x.com/wasabeef_jp), a **[Google Developers Expert fo
 <br clear="both"/>
 
 <p align="center">
-  <img width="49%" src="./generated/github-stats.svg?v=2026-06-24" alt="Wasabeef's GitHub stats" />
-  <img width="49%" src="./generated/github-most-used-languages.svg?v=2026-06-24" alt="Wasabeef's most used languages" />
+  <img width="49%" src="./generated/github-stats.svg?v=2026-06-25" alt="Wasabeef's GitHub stats" />
+  <img width="49%" src="./generated/github-most-used-languages.svg?v=2026-06-25" alt="Wasabeef's most used languages" />
 </p>
 
 <p align="center">
-  <img width="49%" src="./generated/github-top-repositories.svg?v=2026-06-24" alt="Wasabeef's top repositories by stars" />
-  <img width="49%" src="./generated/github-recent-releases.svg?v=2026-06-24" alt="Wasabeef's recent releases" />
+  <img width="49%" src="./generated/github-top-repositories.svg?v=2026-06-25" alt="Wasabeef's top repositories by stars" />
+  <img width="49%" src="./generated/github-recent-releases.svg?v=2026-06-25" alt="Wasabeef's recent releases" />
 </p>
 
 ### ♡ Top Sponsors
