@@ -29,7 +29,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Rust</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#1</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">32.1%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">32.0%</text>
                 </g>
                 
                 <g transform="translate(152,56)">
@@ -43,7 +43,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">23.5%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">23.7%</text>
                 </g>
                 
                 <g transform="translate(24,124)">
@@ -91,7 +91,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Dart</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#5</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">6.8%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">6.7%</text>
                 </g>
                 
                 <g transform="translate(152,192)">
@@ -110,6 +110,6 @@
                   <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">5.7%</text>
                 </g>
                 
-  <path d="M376.00,58.00 A80.00,80.00 0 0 1 448.27,172.32 L420.26,159.02 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M448.27,172.32 A80.00,80.00 0 0 1 348.45,213.11 L359.13,184.00 A49.00,49.00 0 0 0 420.26,159.02 Z" fill="#3178c6" /><path d="M348.45,213.11 A80.00,80.00 0 0 1 306.65,177.88 L333.52,162.42 A49.00,49.00 0 0 0 359.13,184.00 Z" fill="#b07219" /><path d="M306.65,177.88 A80.00,80.00 0 0 1 296.09,141.87 L327.06,140.37 A49.00,49.00 0 0 0 333.52,162.42 Z" fill="#fcb32c" /><path d="M296.09,141.87 A80.00,80.00 0 0 1 301.58,108.64 L330.42,120.02 A49.00,49.00 0 0 0 327.06,140.37 Z" fill="#00B4AB" /><path d="M301.58,108.64 A80.00,80.00 0 0 1 316.58,84.43 L339.61,105.19 A49.00,49.00 0 0 0 330.42,120.02 Z" fill="#A97BFF" /><path d="M316.58,84.43 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.61,105.19 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">32.1%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  <path d="M376.00,58.00 A80.00,80.00 0 0 1 448.46,171.90 L420.38,158.77 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M448.46,171.90 A80.00,80.00 0 0 1 348.14,212.99 L358.94,183.93 A49.00,49.00 0 0 0 420.38,158.77 Z" fill="#3178c6" /><path d="M348.14,212.99 A80.00,80.00 0 0 1 306.56,177.73 L333.47,162.33 A49.00,49.00 0 0 0 358.94,183.93 Z" fill="#b07219" /><path d="M306.56,177.73 A80.00,80.00 0 0 1 296.09,141.81 L327.06,140.33 A49.00,49.00 0 0 0 333.47,162.33 Z" fill="#fcb32c" /><path d="M296.09,141.81 A80.00,80.00 0 0 1 301.57,108.67 L330.41,120.04 A49.00,49.00 0 0 0 327.06,140.33 Z" fill="#00B4AB" /><path d="M301.57,108.67 A80.00,80.00 0 0 1 316.51,84.51 L339.56,105.24 A49.00,49.00 0 0 0 330.41,120.04 Z" fill="#A97BFF" /><path d="M316.51,84.51 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.56,105.24 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">32.0%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
   
 </svg>
