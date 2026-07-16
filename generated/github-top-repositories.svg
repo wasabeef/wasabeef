@@ -17,7 +17,7 @@
                   <circle cx="20" cy="27" r="7" fill="#41b883" />
                   <text x="40" y="18" class="repo" dominant-baseline="middle">awesome-android-ui</text>
                   <polygon transform="translate(370,20)" points="7,0.5 8.9,5 13.5,5.3 10,8.2 11.2,12.9 7,10.4 2.8,12.9 4,8.2 0.5,5.3 5.1,5" fill="#41b883" />
-                  <text x="429" y="27" text-anchor="end" class="stars" dominant-baseline="middle">56,774</text>
+                  <text x="429" y="27" text-anchor="end" class="stars" dominant-baseline="middle">56,843</text>
                   <text x="40" y="37" class="desc" dominant-baseline="middle">A curated list of awesome Android UI/UX libraries</text>
                 </g>
                 

@@ -29,7 +29,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Rust</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#1</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">32.0%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">31.9%</text>
                 </g>
                 
                 <g transform="translate(152,56)">
@@ -43,7 +43,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">23.7%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">23.8%</text>
                 </g>
                 
                 <g transform="translate(24,124)">
@@ -61,7 +61,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:14px;">Java</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#3</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">11.1%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">11.0%</text>
                 </g>
                 
                 <g transform="translate(152,124)">
@@ -110,6 +110,6 @@
                   <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">5.7%</text>
                 </g>
                 
-  <path d="M376.00,58.00 A80.00,80.00 0 0 1 448.46,171.90 L420.38,158.77 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M448.46,171.90 A80.00,80.00 0 0 1 348.14,212.99 L358.94,183.93 A49.00,49.00 0 0 0 420.38,158.77 Z" fill="#3178c6" /><path d="M348.14,212.99 A80.00,80.00 0 0 1 306.56,177.73 L333.47,162.33 A49.00,49.00 0 0 0 358.94,183.93 Z" fill="#b07219" /><path d="M306.56,177.73 A80.00,80.00 0 0 1 296.09,141.81 L327.06,140.33 A49.00,49.00 0 0 0 333.47,162.33 Z" fill="#fcb32c" /><path d="M296.09,141.81 A80.00,80.00 0 0 1 301.57,108.67 L330.41,120.04 A49.00,49.00 0 0 0 327.06,140.33 Z" fill="#00B4AB" /><path d="M301.57,108.67 A80.00,80.00 0 0 1 316.51,84.51 L339.56,105.24 A49.00,49.00 0 0 0 330.41,120.04 Z" fill="#A97BFF" /><path d="M316.51,84.51 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.56,105.24 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">32.0%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  <path d="M376.00,58.00 A80.00,80.00 0 0 1 448.67,171.44 L420.51,158.48 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M448.67,171.44 A80.00,80.00 0 0 1 347.96,212.92 L358.82,183.89 A49.00,49.00 0 0 0 420.51,158.48 Z" fill="#3178c6" /><path d="M347.96,212.92 A80.00,80.00 0 0 1 306.55,177.71 L333.46,162.32 A49.00,49.00 0 0 0 358.82,183.89 Z" fill="#b07219" /><path d="M306.55,177.71 A80.00,80.00 0 0 1 296.10,141.91 L327.06,140.39 A49.00,49.00 0 0 0 333.46,162.32 Z" fill="#fcb32c" /><path d="M296.10,141.91 A80.00,80.00 0 0 1 301.50,108.86 L330.37,120.15 A49.00,49.00 0 0 0 327.06,140.39 Z" fill="#00B4AB" /><path d="M301.50,108.86 A80.00,80.00 0 0 1 316.31,84.73 L339.44,105.37 A49.00,49.00 0 0 0 330.37,120.15 Z" fill="#A97BFF" /><path d="M316.31,84.73 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.44,105.37 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">31.9%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
   
 </svg>
