@@ -43,7 +43,7 @@
         </g>
                   <text x="41" y="22" class="tile-label" dominant-baseline="middle" style="font-size:13px;">TypeScript</text>
                   <text x="12" y="43" class="tile-rank" dominant-baseline="middle">#2</text>
-                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">25.3%</text>
+                  <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">25.4%</text>
                 </g>
                 
                 <g transform="translate(24,124)">
@@ -110,6 +110,6 @@
                   <text x="106" y="43" text-anchor="end" class="tile-percent" dominant-baseline="middle">5.5%</text>
                 </g>
                 
-  <path d="M376.00,58.00 A80.00,80.00 0 0 1 450.11,168.13 L421.39,156.45 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M450.11,168.13 A80.00,80.00 0 0 1 344.30,211.45 L356.58,182.99 A49.00,49.00 0 0 0 421.39,156.45 Z" fill="#3178c6" /><path d="M344.30,211.45 A80.00,80.00 0 0 1 305.25,175.35 L332.67,160.88 A49.00,49.00 0 0 0 356.58,182.99 Z" fill="#b07219" /><path d="M305.25,175.35 A80.00,80.00 0 0 1 296.03,140.07 L327.02,139.27 A49.00,49.00 0 0 0 332.67,160.88 Z" fill="#fcb32c" /><path d="M296.03,140.07 A80.00,80.00 0 0 1 301.90,107.86 L330.61,119.54 A49.00,49.00 0 0 0 327.02,139.27 Z" fill="#00B4AB" /><path d="M301.90,107.86 A80.00,80.00 0 0 1 316.60,84.41 L339.62,105.18 A49.00,49.00 0 0 0 330.61,119.54 Z" fill="#A97BFF" /><path d="M316.60,84.41 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.62,105.18 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">31.1%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
+  <path d="M376.00,58.00 A80.00,80.00 0 0 1 450.18,167.95 L421.44,156.35 A49.00,49.00 0 0 0 376.00,89.00 Z" fill="#dea584" /><path d="M450.18,167.95 A80.00,80.00 0 0 1 344.19,211.40 L356.52,182.96 A49.00,49.00 0 0 0 421.44,156.35 Z" fill="#3178c6" /><path d="M344.19,211.40 A80.00,80.00 0 0 1 305.23,175.30 L332.65,160.85 A49.00,49.00 0 0 0 356.52,182.96 Z" fill="#b07219" /><path d="M305.23,175.30 A80.00,80.00 0 0 1 296.03,140.06 L327.02,139.26 A49.00,49.00 0 0 0 332.65,160.85 Z" fill="#fcb32c" /><path d="M296.03,140.06 A80.00,80.00 0 0 1 301.88,107.89 L330.60,119.55 A49.00,49.00 0 0 0 327.02,139.26 Z" fill="#00B4AB" /><path d="M301.88,107.89 A80.00,80.00 0 0 1 316.56,84.46 L339.59,105.20 A49.00,49.00 0 0 0 330.60,119.55 Z" fill="#A97BFF" /><path d="M316.56,84.46 A80.00,80.00 0 0 1 376.00,58.00 L376.00,89.00 A49.00,49.00 0 0 0 339.59,105.20 Z" fill="#edf3ef" /><circle cx="376" cy="138" r="47" fill="#fffefe" /><text x="376" y="129" text-anchor="middle" class="donut-main" dominant-baseline="middle">31.1%</text><text x="376" y="151" text-anchor="middle" class="donut-sub" dominant-baseline="middle">Rust</text>
   
 </svg>
